@@ -1,6 +1,8 @@
 $ = jQuery = require('jquery');
 
 var React = require('react');
+var Router = require('react-router');
+var Link = Router.Link;
 var AuthorApi = require('../../api/authorApi');
 var AuthorList = require('./authorList')
 
@@ -34,6 +36,7 @@ var AuthorPage = React.createClass({
         return (
             <div>
                 <h1>Authors</h1>
+                <Link to="manageAuthor" className="btn btn-primary btn-lg">Add Author</Link>
                 <AuthorList authors={this.state.authors}/>
             </div>
         );
