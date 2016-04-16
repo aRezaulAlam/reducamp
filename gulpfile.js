@@ -20,7 +20,7 @@ var config = {
 			'node_modules/bootstrap/dist/css/bootstrap.min.css',
 			'node_modules/bootstrap/dist/css/bootstrap-theme.min.css'
 		],
-		dist: './dist',
+		dist: '../../Dev/EduCamp/src/main/resources/public',
 		mainJs: './src/main.js'
 	}
 }
